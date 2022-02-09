@@ -1,0 +1,27 @@
+.footer-cards{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 90px;
+    text-align: center;
+}
+.footer-card{
+    height: 120px;
+    width: 260px;
+    color: black;
+    padding: 10px 80px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-card h3{
+    font-weight: bold;
+    font-size: 17px;
+}
+.footer-card p{
+    font-weight: lighter;
+    font-size: 12px;
+    color: rgb(121, 120, 118);
+}

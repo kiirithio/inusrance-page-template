@@ -1,0 +1,14 @@
+table{
+    color: rgb(37, 37, 37);
+    width: 100%;
+    margin-top: 100px;
+    
+}
+table tr th {
+    text-align: left;
+    padding: 8px;
+}
+table tr td {
+    text-align: left;
+    padding: 8px;
+}

@@ -1,0 +1,83 @@
+.product{
+    display: flex;
+    flex-direction: column;
+    margin-top: 160px;
+}
+.product-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.product p{
+    font-weight: lighter;
+    font-size: 14px;
+    color: rgb(121, 120, 118);
+}
+.product button{
+    height: 52px;
+    background-color:rgb(35, 166, 240) ;
+    color: white;
+    font-size: 16px;
+    border: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.review-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    text-align: center;
+}
+.review-card{
+    width: 300px;
+    height: 330px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px rgb(161, 160, 160) solid;
+}
+.review-card img{
+    width: 40%;
+    height: 40%;
+}
+.product-vector{
+    width: 100%;
+    display: flex;
+    margin-top: 190px;
+    justify-content: space-between;
+}
+.product-vector img{
+    width: 13vh;
+    height: 100%;
+}
+.subscribe-card{
+    background: linear-gradient(to right,rgb(6, 69, 136),rgb(209,21,136));
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    margin: 50px 0 80px 0;
+}
+.subscribe-card input{
+    height: 50px;
+    background-color:rgb(255, 255, 255) ;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    border: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.subscribe-card div{
+    height: 50px;
+    border: 1px white solid;
+    border-radius: 10px;
+}
+
